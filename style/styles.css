@@ -7,3 +7,4 @@ body {
   height: 44px;
   background: url(https://cdn.pixabay.com/photo/2016/09/04/20/09/mountains-1645078__480.jpg) 0 0;
 }
+img{object-position: center;}
