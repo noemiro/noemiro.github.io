@@ -11,12 +11,3 @@ body {
 }
 img{margin-top: auto;}
 h1{font-family: Georgia, serif;}
-p {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-}
-img 2 {
-  float: right;
-}
