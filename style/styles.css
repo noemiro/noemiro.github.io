@@ -1,4 +1,6 @@
 body { 
+
+
     
 
 }
@@ -14,4 +16,7 @@ p {
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
+}
+img 2 {
+  float: right;
 }
