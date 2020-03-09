@@ -1,35 +1,61 @@
 h1 {
-    color: red;
-  }
-div.gallery {
-    margin: 6px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px 5;
-    text-align: center;
-   
-  }
-  
-  div {
-    border: 1px solid black;
-    background-color: whitesmoke
-    padding-top: 100px;
-    padding-right: 30px;
-    padding-bottom: 100px;
-    padding-left: 80px;}
-p2 {
-  text-align: center;
+  color: blue;
 }
+div.gallery {
+  margin: 4px;
+  border: 40px solid #ccc;
+  float: center;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 75%;
+}
+
+div.desc {
+  padding: 15px 5;
+  text-align: center;
+ 
+}
+
+img2{
+ width: 50%;
+ height: auto;
+}
+
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+}
+
+li a {
+display: block;
+color: #200;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+background-color: #555;
+color: white;
+}
+
+
+
+
+
+
+
+img{margin-top: auto;}
+h2{font-family: Calibri, serif;}
