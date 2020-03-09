@@ -11,3 +11,6 @@ body {
 }
 img{margin-top: auto;}
 h1{font-family: Georgia, serif;}
+img { 
+  float: right;
+}
