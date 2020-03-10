@@ -79,11 +79,6 @@ h3{
   font-style: oblique;
 }
 
-
-#image2 {
-  float: right;
-  margin-left: 20px;
-}
 tbody{
   font-size: 40px
 }
@@ -95,7 +90,7 @@ table {
 }
 
 table, td, th {
-  border: 5px #1aa3ff;
+  border: 40px #1aa3ff;
   height: 40px;
   width: 200px;
   text-align:center;
