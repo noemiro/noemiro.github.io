@@ -101,3 +101,8 @@ table, td, th {
   text-align:center;
 
 }
+#rechts{
+  float: right;
+    width: 234px;
+    height: 123px;
+}
