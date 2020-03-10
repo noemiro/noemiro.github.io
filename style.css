@@ -139,4 +139,8 @@ table, td, th {
     clear: right;
 }
 
-img{align-content: center;}
+img {
+  width: 100%;
+  height: auto;
+  align-content: center;
+}
