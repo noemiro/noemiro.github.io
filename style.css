@@ -37,7 +37,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#5cd6d6;
+  background-color:#1aa3ff;
 }
 
 li {
@@ -73,8 +73,10 @@ h2{
   
  font-family: Calibri, serif;
  font-size:40px;
- font-style: oblique;
  
+}
+h3{
+  font-style: oblique;
 }
 
 
@@ -93,4 +95,8 @@ table {
 
 table, td, th {
   border: 1px solid black;
+  height: 40px;
+  width: 200px;
+  text-align:center;
+
 }
