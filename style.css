@@ -6,7 +6,7 @@ div.gallery {
   margin: 50px;
   border: 1px solid #ccc;
   float: center;
-  width: 500px;
+  width: 700px;
 }
 
 div.gallery:hover {
@@ -19,7 +19,7 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px 5;
+  padding: 40px 5;
   text-align: center;
  
 }
@@ -60,6 +60,7 @@ p {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   width: 50%;
+  font-style: oblique;
 }
 
 
@@ -72,7 +73,7 @@ h2{
   
  font-family: Calibri, serif;
  font-size:40px;
- font-style: oblique;
+ 
  
 }
 
