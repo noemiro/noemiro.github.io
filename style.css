@@ -108,4 +108,5 @@ table, td, th {
     height: 123px;
     margin-left: 20px;
     border: 1px solid red;
+    clear: right;
 }
