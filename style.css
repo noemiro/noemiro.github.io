@@ -3,10 +3,10 @@ h1 {
 
 }
 div.gallery {
-  margin: 4px;
-  border: 40px solid #ccc;
+  margin: 50px;
+  border: 1px solid #ccc;
   float: center;
-  width: 180px;
+  width: 500px;
 }
 
 div.gallery:hover {
@@ -72,6 +72,7 @@ h2{
   
  font-family: Calibri, serif;
  font-size:40px;
+ font-style: oblique;
  
 }
 
