@@ -120,6 +120,7 @@ tr{
 }
 table {
   border-collapse: collapse;
+  margin-left: 80px;
 }
 
 table, td, th {
