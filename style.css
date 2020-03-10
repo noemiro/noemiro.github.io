@@ -56,9 +56,10 @@ li a:hover {
   background-color:#adebeb;
 }
 p {
-  text-align: center;
+  text-align: justify;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
+  width: 50%;
 }
 
 
@@ -71,5 +72,5 @@ h2{
   
  font-family: Calibri, serif;
  font-size:40px;
- width: 50%;
+ 
 }
