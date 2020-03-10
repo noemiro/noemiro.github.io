@@ -100,9 +100,8 @@ table, td, th {
   width: 200px;
   text-align:center;
 
+
 }
-#rechts{
+#right{
   float: right;
-    width: 234px;
-    height: 123px;
 }
