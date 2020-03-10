@@ -94,7 +94,7 @@ table {
 }
 
 table, td, th {
-  border: 1px solid black;
+  border: 1px #1aa3ff;
   height: 40px;
   width: 200px;
   text-align:center;
