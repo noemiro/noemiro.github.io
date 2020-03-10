@@ -104,4 +104,8 @@ table, td, th {
 }
 #right{
   float: right;
+    width: 234px;
+    height: 123px;
+    margin-left: 20px;
+    border: 1px solid red;
 }
