@@ -25,28 +25,36 @@ div.desc {
  
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+* {
+  box-sizing: border-box;
 }
 
-/* Create two equal columns that sits next to each other */
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
 .column {
-  flex: 50%;
-  padding: 0 4px;
+  float: left;
+  width: 50%;
+  padding: 10px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
+  margin-top: 12px;
 }
 
-
-img{
- width: 100%;
- height: auto;
- align-content: center;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
