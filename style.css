@@ -70,4 +70,6 @@ p {
 h2{
   
  font-family: Calibri, serif;
-font-size:40px;}
+ font-size:40px;
+ width: 50%;
+}
