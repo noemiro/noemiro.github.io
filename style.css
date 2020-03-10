@@ -134,9 +134,9 @@ table, td, th {
 }
 #right{
   float: right;
-    width: 234px;
+    width: 100%;
     height: 123px;
-    margin-left: 20px;
+    margin-left: 200px;
     border: 1px solid red;
     clear: right;
 }
