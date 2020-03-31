@@ -100,10 +100,15 @@ p {
 
 
 h2{
+  background:#adebeb;
+  color: black;
+  margin: 20px 40px;
+  padding: 20px 40px;
+
   
  font-family: Calibri, serif;
  font-size:40px;
- margin-left: 80px;
+ margin: 80px;
   
 }
 h3{
