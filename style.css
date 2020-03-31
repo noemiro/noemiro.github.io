@@ -130,6 +130,8 @@ h3{
 
 header.logo a{
   background-image: url("https://www.pinclipart.com/picdir/middle/370-3703150_png-file-switzerland-map-vector-clipart.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
   display: inline-block;
   text-indent:-9999px; 
   height: 80px;
