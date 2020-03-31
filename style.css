@@ -115,12 +115,15 @@ h2{
 
 section{
   color: black;
+  display: flex;
+  flex-direction: row;
 }
 
 div {
   display: inline-block;
   width: 50px;
   height: 50px;
+  margin: auto;
 }
 h3{
   font-style: oblique;
