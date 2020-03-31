@@ -112,6 +112,15 @@ h2{
  margin: 80px;
   
 }
+
+section{
+  color: black;
+}
+
+div {
+  display: inline-block;
+  width: 100px;
+}
 h3{
   font-style: oblique;
   margin-left: 80px;
