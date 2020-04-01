@@ -25,6 +25,10 @@ div.desc {
  
 }
 
+header {
+  text-align: center;
+}
+
 
 
 * {
@@ -134,8 +138,10 @@ header.logo a{
   background-repeat: no-repeat;
   display: inline-block;
   text-indent:-9999px; 
+  position: relative;
   height: 80px;
   width: 80px;
+  top: -40px ;
 }
 
 tbody{
