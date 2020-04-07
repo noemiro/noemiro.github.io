@@ -155,6 +155,11 @@ h3{
   width: 200px;
 }
 
+.features img {
+ width: auto;
+
+}
+
 header .logo a {
   background-image: url("logo.jpg.png");
   background-size: 300px;
