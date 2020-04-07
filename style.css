@@ -160,7 +160,7 @@ h3{
 
 }
 
-header .logo a {
+header .logo {
   background-image: url("logo.jpg.png");
   background-size: 50px;
   background-repeat: no-repeat;
