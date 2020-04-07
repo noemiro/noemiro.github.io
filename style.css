@@ -139,6 +139,22 @@ h3{
   
 }
 
+.features {
+ background: white;
+ color: black;
+ 
+
+}
+
+.features figure {
+ margin: auto;
+
+}
+
+.features figure img {
+  width: 200px;
+}
+
 header .logo a {
   background-image: url("logo.png");
   background-size: 300px;
