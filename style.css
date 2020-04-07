@@ -162,7 +162,7 @@ h3{
 
 header .logo a {
   background-image: url("logo.jpg.png");
-  background-size: 300px;
+  background-size: 50px;
   background-repeat: no-repeat;
   display: inline-block;
   text-indent:-99999999px; 
