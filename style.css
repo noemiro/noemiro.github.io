@@ -27,6 +27,12 @@ div.desc {
 
 header {
   text-align: center;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  background-image: url("niederhorn.jpg");
+  background-size: 100%;
+  background-position: center;
 }
 
 
