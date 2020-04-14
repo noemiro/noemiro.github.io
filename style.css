@@ -199,6 +199,7 @@ header .logo {
   background-image: url("logo.png");
   background-size: 700px;
   display: inline-block;
+  background-size: no-repeat;
   text-indent:-99999999px; 
   top: -40px ;
   position: absolute;
