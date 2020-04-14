@@ -190,6 +190,11 @@ h3{
 
 }
 
+
+img #features{
+  width: auto;
+}
+
 header .logo {
   background-image: url("logo.png");
   background-size: 700px;
@@ -294,5 +299,3 @@ footer {
   text-align: center;
 }
 
-
-  
