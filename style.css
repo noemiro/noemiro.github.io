@@ -33,6 +33,11 @@ header {
  
 }
 
+header .mobile {
+  display: none;
+
+}
+
 
 
 * {
@@ -78,6 +83,9 @@ ul {
   background-color: white;
 }
 
+
+
+
 li {
   float: left;
   
@@ -103,6 +111,18 @@ p {
   width: 50%;
   margin-left: 80px;
   
+}
+
+/*Responsive rules*/
+
+@media screen and (max-width:761px) {
+  header .mobile{
+    display: inline-block;
+  }
+  header .desktop{
+    display: none;
+  }
+
 }
 
 
@@ -253,8 +273,17 @@ div.desc {
 .clearfix:after {
   content: "";
   display: table;
-  clear: both;}
+  clear: both;
+}
 
+
+footer {
+  background: seashell;
+  color: black;
+  font-size: 12px;
+  padding:  20px 20px;
+  text-align: center;
+}
 
 
   
