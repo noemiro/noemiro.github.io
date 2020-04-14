@@ -200,10 +200,10 @@ header .logo {
   background-size: 700px;
   display: inline-block;
   background-size: no-repeat;
-  text-indent:-99999999px; 
+  text-indent:-99px; 
   top: -40px ;
   position: absolute;
-  height: 400px;
+  height: 700px;
   width: 700px;
  
 }
