@@ -116,13 +116,12 @@ p {
 /*Responsive rules*/
 
 @media screen and (max-width:761px) {
-  header .mobile{
+  header .mobile {
     display: inline-block;
   }
-  header .desktop{
+  header .desktop {
     display: none;
   }
-
 }
 
 
