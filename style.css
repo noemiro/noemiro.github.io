@@ -290,7 +290,8 @@ footer {
   text-align: center;
 }
 
-.top-nav-content .logo {
+.top-nav-content 
+.logo {
   position: relative;
   display: block;
   z-index: 4;
