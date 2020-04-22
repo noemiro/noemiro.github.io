@@ -199,13 +199,14 @@ img #features{
 header .logo {
   background-image: url("logo.png");
   background-size: auto auto;
+  background-attachment: fixed;
   display: inline-block;
   background-repeat: no-repeat;
   text-indent:-99px; 
   top: -40px ;
   background-position: 0 center;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
  
 }
 
