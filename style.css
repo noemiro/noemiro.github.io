@@ -94,7 +94,7 @@ ul {
 
 li {
   float: left;
-  font-size: 40px;
+  font-size: 25px;
   
 
 }
@@ -196,18 +196,7 @@ img #features{
   width: auto;
 }
 
-header .logo {
-  background-image: url("logo.png");
-  background-size: 700px;
-  display: inline-block;
-  background-size: no-repeat;
-  text-indent:-99px; 
-  top: -40px ;
-  position: absolute;
-  height: 700px;
-  width: 700px;
- 
-}
+
 
 tbody{
   font-size: 40px
@@ -301,3 +290,23 @@ footer {
   text-align: center;
 }
 
+.top-nav-content .logo {
+  position: relative;
+  display: block;
+  z-index: 4;
+  float: left;
+  width: 144px;
+  height: 100%;
+  cursor: pointer;
+  }
+  
+
+  .logo {
+    	     background-image: url("logo.png") ;
+    	     background-size: auto auto;
+    	     background-position: 0 center;
+    	     background-repeat: no-repeat;
+    }
+
+    
+  
