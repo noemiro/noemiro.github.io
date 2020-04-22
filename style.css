@@ -196,6 +196,18 @@ img #features{
   width: auto;
 }
 
+header .logo {
+  background-image: url("logo.png");
+  background-size: 700px;
+  display: inline-block;
+  background-size: no-repeat;
+  text-indent:-99px; 
+  top: -40px ;
+  position: absolute;
+  height: 700px;
+  width: 700px;
+ 
+}
 
 
 tbody{
