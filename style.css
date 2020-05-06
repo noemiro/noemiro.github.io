@@ -47,7 +47,10 @@ header .mobile {
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
 
 .header {
@@ -355,19 +358,5 @@ footer {
            list-style-image: none;
           }
     
-     ul {
-    	     display: block;
-    	  
-    	     margin-block-start: 1em;
-    	     margin-block-end: 1em;
-    	     margin-inline-start: 0px;
-    	     margin-inline-end: 0px;
-           padding-inline-start: 40px;
-     }
+     
     
-    body {
-       font-family: "PT Sans";
-    	     font-weight: 400;
-    	     font-style: normal;
-    	     font-size: 16px;
-    }
