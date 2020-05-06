@@ -95,6 +95,9 @@ ul {
 li {
   float: left;
   font-size: 32px;
+  font-family: "PT Sans";
+  font-weight: 600;
+  font-style: normal;
   
 
 }
@@ -105,10 +108,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: "PT Sans";
-  font-weight: 600;
-  font-style: normal;
-  font-size: 32px;
+  
 
 }
 
