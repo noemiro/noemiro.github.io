@@ -114,6 +114,7 @@ li a {
 
 li a:hover {
   background-color:#adebeb;
+  color:white;
 }
 p {
   text-align: justify;
