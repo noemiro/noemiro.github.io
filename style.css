@@ -338,3 +338,36 @@ footer {
 	  overflow: hidden;
 
   }
+
+  .main-menu .menu, .secondary-menu .menu {
+           font-size: 0; 
+          }
+    
+    .main-menu>ul {
+    	     text-align: center;
+    }
+
+
+    dl, ol, ul {
+         margin: 0;
+    	     padding: 0;
+    	     list-style: none;
+           list-style-image: none;
+          }
+    
+     ul {
+    	     display: block;
+    	     list-style-type: disc;
+    	     margin-block-start: 1em;
+    	     margin-block-end: 1em;
+    	     margin-inline-start: 0px;
+    	     margin-inline-end: 0px;
+           padding-inline-start: 40px;
+     }
+    
+    body {
+       font-family: "PT Sans";
+    	     font-weight: 400;
+    	     font-style: normal;
+    	     font-size: 16px;
+    }
