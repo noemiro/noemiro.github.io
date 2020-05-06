@@ -320,16 +320,21 @@ footer {
   }
   
 
-  .logo {
-    	     background-image: url("logo.png") ;
-    	     background-size: auto auto;
-    	     background-position: 0 center;
-    	     background-repeat: no-repeat;
-    }
-
+ 
+  
     
   .Logo {
     width:"387"; 
     height: "322";
+
+  }
+  div .background-block{
+    background-color: #ede4de ;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+	  overflow: hidden;
 
   }
