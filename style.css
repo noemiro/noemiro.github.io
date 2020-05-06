@@ -342,21 +342,4 @@ footer {
 
   }
 
-  .main-menu .menu, .secondary-menu .menu {
-           font-size: 0; 
-          }
-    
-    .main-menu>ul {
-    	     text-align: center;
-    }
-
-
-    dl, ol, ul {
-         margin: 0;
-    	     padding: 0;
-    	     list-style: none;
-           list-style-image: none;
-          }
-    
-     
-    
+  
