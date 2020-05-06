@@ -93,7 +93,7 @@ ul {
 
 
 li {
-  float: left;
+  float: center;
   font-size: 32px;
   font-family: "PT Sans";
   font-weight: 600;
@@ -357,7 +357,7 @@ footer {
     
      ul {
     	     display: block;
-    	     list-style-type: disc;
+    	  
     	     margin-block-start: 1em;
     	     margin-block-end: 1em;
     	     margin-inline-start: 0px;
