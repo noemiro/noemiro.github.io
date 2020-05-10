@@ -118,7 +118,7 @@ li a {
   font-size: 25px;
   font-weight: 400;
   font-style: normal;
-  text-transform: uppercase;
+
 }
 
 li a:hover {
@@ -334,7 +334,7 @@ footer {
     
     margin-right: auto;
     margin-left: auto;
-
+    background-color: yellowgreen;
 
   }
   div .background-block{
