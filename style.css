@@ -29,11 +29,9 @@ header {
   text-align: center;
   height: 200px;
   text-align: center;
-  background-image: url("bild-background.jpg");
-  background-size: 100%;
-  background-position: center;
+  background-color: #e6ffff;
   display: block;
-  background-repeat: no-repeat;
+ 
   top: -40px ;
   padding: 20px;
   
@@ -96,7 +94,7 @@ nav ul {
   
   padding: 0;
   overflow: hidden;
-  background-color: white;
+ 
 }
 
 
