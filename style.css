@@ -350,14 +350,14 @@ footer {
 
   }
   
-  .photos {
+  .photos, .features {
     background: white;
     color: grey;
     padding: 20px;
     display: flex;
     flex-direction: row;
   }
-.photos figure {
+.photos figure, .features figure {
   margin: auto;
   text-align: center;
   text-transform: uppercase;
@@ -368,6 +368,13 @@ footer {
   width: 200px;
   border-radius: 50%;
   box-shadow: rosybrown 0 0 10px;
+}
+
+.features figure img {
+  border: 1px solid white;
+  width: 200px;
+  box-shadow: rosybrown 0 0 10px;
+  
 }
 
   
