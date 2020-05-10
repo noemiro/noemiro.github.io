@@ -329,12 +329,13 @@ footer {
   .Logo {
     width:"387"; 
     height: "322";
-    padding: 2px;
+    padding: 20px;
     position: relative;
     top: -30px;
-    display: inline-block;
+    display: block;
     background-color: yellow;
-    
+    margin-right: auto;
+    margin-left: auto;
 
 
   }
