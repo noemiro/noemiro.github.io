@@ -349,7 +349,25 @@ footer {
 	  overflow: hidden;
 
   }
-
-
+  
+  .photos {
+    background: white;
+    color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+.photos figure {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+}
+.photos figure img{
+  border: 1px solid white;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: rosybrown 0 0 10px;
+}
 
   
