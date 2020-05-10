@@ -32,7 +32,7 @@ header {
   background-image: url("bild-background.jpg");
   background-size: 100%;
   background-position: center;
-  display: inline-block;
+  display: block;
   background-repeat: no-repeat;
   top: -40px ;
   padding: 20px;
