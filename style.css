@@ -93,7 +93,7 @@ header .mobile {
 
 nav ul {
   list-style-type: none;
-  margin: 0;
+  
   padding: 0;
   overflow: hidden;
   background-color: white;
@@ -103,12 +103,13 @@ nav ul {
 
 
 nav li {
-  float: left;
-  font-size: 28px;
+  display: inline-block;
+
+  font-size: 18px;
   font-family: "PT Sans";
-  font-weight: 600;
+  font-weight: 550;
   font-style: normal;
-  margin: 20px;
+  margin-right: 20px;
   
 
 }
