@@ -363,6 +363,9 @@ footer {
   text-align: center;
   text-transform: uppercase;
   width: 200px;
+ 
+}
+.photos figure figcaption {
   text-decoration: none;
 }
 .photos figure img{
