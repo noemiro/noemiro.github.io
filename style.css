@@ -102,11 +102,6 @@ nav ul {
 
 nav li {
   display: inline-block;
-
-  font-size: 18px;
-  font-family: "PT Sans";
-  font-weight: 400;
-  font-style: normal;
   margin-right: 20px;
   
 
@@ -119,7 +114,10 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   float: left;
-  
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
 
 }
 
