@@ -30,7 +30,7 @@ header {
   height: 400px;
   padding: 20px;
   text-align: center;
-  background-image: url("images/mountains-background.png");
+  background: url("mountains-background.jpg");
 }
 
 header .mobile {
