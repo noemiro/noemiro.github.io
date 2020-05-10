@@ -111,6 +111,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float: left;
   
 
 }
@@ -321,10 +322,6 @@ footer {
   height: 100%;
   cursor: pointer;
   }
-  
-
- 
-  
     
   .Logo {
     width:"387"; 
@@ -341,5 +338,7 @@ footer {
 	  overflow: hidden;
 
   }
+
+
 
   
