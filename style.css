@@ -27,7 +27,7 @@ div.desc {
 
 header {
   text-align: center;
-  height: 230px;
+  height: 200px;
   text-align: center;
   background-image: url("bild-background.jpg");
   background-size: 100%;
@@ -36,6 +36,7 @@ header {
   background-repeat: no-repeat;
   top: -40px ;
   padding: 20px;
+  
  
 }
 
