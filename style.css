@@ -30,12 +30,12 @@ header {
   height: 230px;
   text-align: center;
   background-image: url("bild-background.jpg");
-  background-size: auto auto;
-  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
   display: inline-block;
   background-repeat: no-repeat;
   top: -40px ;
-  background-position: 0 center;
+  padding: 20px;
  
 }
 
@@ -103,7 +103,7 @@ nav ul {
 
 nav li {
   float: left;
-  font-size: 32px;
+  font-size: 28px;
   font-family: "PT Sans";
   font-weight: 600;
   font-style: normal;
@@ -333,6 +333,7 @@ footer {
     position: relative;
     top: -30px;
     display: inline-block;
+    background-color: yellow;
     
 
 
@@ -362,7 +363,7 @@ footer {
   width: 200px;
  
 }
-.photos figure figcaption {
+section .figure a {
   text-decoration: none;
 }
 .photos figure img{
