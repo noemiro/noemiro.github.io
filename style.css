@@ -30,7 +30,7 @@ header {
   height: 400px;
   padding: 20px;
   text-align: center;
- 
+  background-image: url("images/mountains-background.png");
 }
 
 header .mobile {
@@ -334,6 +334,9 @@ footer {
   .Logo {
     width:"387"; 
     height: "322";
+    padding: 2px;
+    position: relative;
+    top: -30px;
 
   }
   div .background-block{
