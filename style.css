@@ -84,7 +84,7 @@ header .mobile {
 
 
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -95,7 +95,7 @@ ul {
 
 
 
-li {
+nav li {
   float: left;
   font-size: 32px;
   font-family: "PT Sans";
@@ -315,8 +315,9 @@ div.desc {
 footer {
   background: seashell;
   color: black;
-  font-size: 12px;
+  font-size: 13px;
   padding:  20px 20px;
+  margin: 20px 20px;
   text-align: center;
 }
 
@@ -350,7 +351,7 @@ footer {
 
   }
   
-  .photos, .features {
+.photos, .features {
     background: white;
     color: grey;
     padding: 20px;
