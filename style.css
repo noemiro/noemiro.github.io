@@ -27,13 +27,13 @@ div.desc {
 
 header {
   text-align: center;
-  height: 200px;
+  height: 120px;
   text-align: center;
-  background-color: #e6ffff;
+  border-bottom: #e6ffff;
   display: block;
- 
+  
   top: -40px ;
-  padding: 20px;
+  
   
  
 }
@@ -42,6 +42,11 @@ header .mobile {
   display: none;
 
 }
+header img {
+ width: 100%;
+
+}
+
 
 
 
@@ -326,17 +331,12 @@ footer {
   }
     
   .Logo {
-    width:"387"; 
-    height: "322";
-    padding: 20px;
-    
-
     display: block;
     
     margin-right: auto;
     margin-left: auto;
     
-
+    
   }
   div .background-block{
     background-color: #ede4de ;
