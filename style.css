@@ -32,6 +32,7 @@ header {
   border-bottom: #e6ffff;
   display: block;
   
+  
   top: -40px ;
   
   
@@ -92,6 +93,7 @@ header .mobile {
 
 
 
+
 nav ul {
   list-style-type: none;
   
@@ -138,6 +140,7 @@ p {
   width: 50%;
   margin-left: 80px;
   
+  
  
 }
 
@@ -168,19 +171,27 @@ header section .features {
 }
 
 
+/*Darkmode*/
+
+@media (prefers-color-scheme: dark) {
+
+}
+
 
 
 
 
 h2{
-  background:#adebeb;
-  color:white;
-  margin: 20px 40px;
- padding: 20px 40px;
+background:#adebeb;
+color:white;
+margin: 45px 120px;
+padding: 10px 10px;
+text-transform: uppercase;
+text-align: center;
 
   
- font-family: Calibri, serif;
- font-size:40px;
+ font-family:"PT Sans";
+ font-size: 20px;
  
   
 }
@@ -197,7 +208,7 @@ section div {
 h3{
   font-style: oblique;
   margin-left: 80px;
-  
+  text-align: center;
 }
 
 .features {
@@ -231,6 +242,11 @@ div .index {
   width: 100%;
     
 
+
+}
+
+div{
+  display: block;
 }
  
 
@@ -250,9 +266,12 @@ table {
 
 table, td, th {
   border: 1px solid black;
-  height: 50px;
-  width: 200px;
+  height: 100px;
+  width: 400px;
   text-align:center;
+  box-shadow: rosybrown 0 0 10px;
+  border: 1px solid white;
+
 
 
 }
@@ -363,7 +382,7 @@ footer {
 
 
 
-.photos, .features {
+.photos, .features, .fotos {
     background: white;
     color: grey;
     padding: 20px;
@@ -375,18 +394,21 @@ footer {
   margin: auto;
   text-align: center;
   text-transform: uppercase;
-  width: 200px;
+  width: 300px;
  
 }
-section .figure a {
+section figure a {
   text-decoration: none;
+  color:grey;
 }
 .photos figure img{
   border: 1px solid white;
-  width: 200px;
+  width: 300px;
   border-radius: 50%;
   box-shadow: rosybrown 0 0 10px;
+
 }
+
 
 .features figure img {
   border: 1px solid white;
@@ -394,6 +416,181 @@ section .figure a {
   box-shadow: rosybrown 0 0 10px;
   
 }
+
+.Sommer {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Sommer figure {
+  margin: auto;
+  text-align: left;
+  
+}
+
+
+.horizontal-mitte {
+  margin:1em auto;
+  display: table-cell;
+  text-align: center;
+  align-items:center;
+  justify-content:center;
+  width: 100%;
+  margin: 0 70px 0 70px;
+  
+   
+    
+    margin: 0 auto;
+    
+  
+
+  
+}
+.vertikal-mitte { 
+  display: block; 
+ text-align: center;
+  float: center;
+  
+}
+
+
+
+.vertikal-mitte p code{
+  font-family: "PT Sans";
+  text-align: center;
+  
+
+}
+
+section p{
+  display:none;
+
+
+}
+
+.gdlr-core-space-item-gdlr-core-item-pdlr{
+  padding-top: 50px;
+}
+
+.vertikal-mitte img{
+  border: 1px solid white;
+  width: 200px;
+  border: 1px solid white;
+  box-shadow: rosybrown 0 0 10px;
+
+}
+
+.skifahren figure img{
+
+  margin: 20px 20px;
+  padding: 100px;
+
+}
+
+ html, body{
+   width: 100%;
+   height:100%;
+   margin: 0;
+  
+ }
+
+ .nav{
+   border-bottom: 1px solid #EAEAEB;
+   text-align: right;
+   height: 30px;
+   line-height: 70px;
+ }
+
+ .menu{
+   margin: 0 30 0 0;
+
+ }
+
+ .menu a{
+   clear:right ;
+   text-decoration: none;
+   margin: 0 10 px;
+   line-height: 70px;
+   display:none;
+ }
+
+ label{
+   margin: 0 40px 0 0;
+   font-size: 26px;
+   line-height: 70px;
+   display:none;
+   width: 26px;
+   float:right
+
+
+ }
+ #toggle{
+   display:none;
+ }
+
+ @media only screen and (max-width:700px){
+   label{
+     display: block;
+     cursor: pointer;
+    
+   }
+   .menu{
+     text-align: center;
+     width: 100%;
+     display: none;
+     font-family: "PT Sans";
+   }
+   .menu a{
+     display: block;
+     border-bottom: 1px solid #EAEAEB;
+     margin: 0;
+     font-family: "PT Sans";
+     text-decoration: none;
+   }
+   #toggle:checked + .menu{
+     display: block;
+
+   }
+   nav ul {
+     display: none;
+    list-style-type: none;
+    
+    padding: 0;
+    overflow: hidden;
+   
+   
+  }
+  
+  
+  
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+    
+  
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    font-family: "PT Sans";
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    
+  }
+ }
+
+
 
 
  
