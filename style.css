@@ -42,10 +42,7 @@ header .mobile {
   display: none;
 
 }
-header img {
- width: 100%;
 
-}
 
 
 
@@ -108,6 +105,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-right: 20px;
+  border: yellowgreen;
   
 
 }
