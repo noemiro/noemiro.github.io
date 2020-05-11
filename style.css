@@ -47,6 +47,7 @@ header .mobile {
 
 
 
+
 * {
   box-sizing: border-box;
 }
@@ -123,7 +124,7 @@ li a {
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
-  border: 40px yellowgreen;
+  
 }
 
 li a:hover {
@@ -141,7 +142,7 @@ p {
 
 /*Responsive rules*/
 
-@media screen and (max-width:761px) {
+@media screen and (max-width:1157px) {
   header .mobile {
     display: inline-block;
   }
@@ -348,6 +349,10 @@ footer {
 
   }
   
+
+
+
+
 .photos, .features {
     background: white;
     color: grey;
@@ -378,5 +383,15 @@ section .figure a {
   box-shadow: rosybrown 0 0 10px;
   
 }
+/* Responsive Rules*/
+
+@media screen and (max-width: 632px){
+  .photos, .features {
+    display:block;
+
+  }
+  
+}
+
 
   
