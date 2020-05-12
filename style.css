@@ -415,6 +415,7 @@ section figure a {
   width: 200px;
   box-shadow: rosybrown 0 0 10px;
   
+  
 }
 
 .Sommer {
@@ -439,14 +440,8 @@ section figure a {
   justify-content:center;
   width: 100%;
   margin: 0 70px 0 70px;
-  
-   
+  margin: 0 auto;
     
-    margin: 0 auto;
-    
-  
-
-  
 }
 .vertikal-mitte { 
   display: block; 
