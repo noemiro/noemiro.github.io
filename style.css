@@ -414,7 +414,7 @@ section figure a {
   border: 1px solid white;
   width: 200px;
   box-shadow: rosybrown 0 0 10px;
-  
+  cursor: pointer;
   
 }
 
