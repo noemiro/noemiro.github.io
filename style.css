@@ -587,7 +587,11 @@ section p{
  }
 
  .onClickTextOverImage{
-    background-image: url(Lake.png);
+    background-image: url(https://brunni.ch/39/de/cmsfiles/posts/images/wanderweg_bergli_brunni_engelberg2.jpg);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+
  }
 
 
