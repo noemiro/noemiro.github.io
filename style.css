@@ -586,13 +586,43 @@ section p{
   }
  }
 
+ /*Text über Bild*/
+
  .onClickTextOverImage{
     background-image: url(https://brunni.ch/39/de/cmsfiles/posts/images/wanderweg_bergli_brunni_engelberg2.jpg);
     width: 200px;
     height: 200px;
     background-size: cover;
+    margin: 4px;
+    cursor: pointer;
+    position: relative;
 
  }
+
+ .onClickTextOverImage div{
+
+  position: absolute;
+  color:#fff ;
+  padding: 8px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color:rgba(0.5,0, 0, 0.5) ;
+  border: radius 16px;
+  padding-top: 85px;
+  text-align: center;
+  opacity: 0;
+  transition: 3s;
+
+}
+
+.onClickTextOverImage div.show{
+  opacity: 1;
+  padding-top: 40%;
+  visibility: visible;
+   
+}
 
 
 
